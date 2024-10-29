@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <aside></aside>
+    <section>
+        <h1>Master UX Design</h1>
+        <h4>Create Seamless, User-Centered Digital Experiences!</h4>
+        <div class="info">
+            <span>
+                Our UX Design course equips you with the skills to create intuitive, aesthetically pleasing, and highly
+                functional interfaces.
+            </span>
+        </div>
+        <form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="post">
+            <div class="daneosobowe">
+                <span>Enter your personal details and book your place!</span>
+                <label for="date1">Choose date</label>
+                <div class="data">
+                    <div>
+                        <input id="date1" class="radio" type="radio" name="date" value="1.09 - 24.09.2024"
+                            required="required" />
+                        <label for="date1">1.09 - 24.09.2024</label>
+                        <div class="tag">BEST OFFER</div>
+                    </div>
+                    <div>
+                        <input id="date2" class="radio" type="radio" name="date" value="1.11 - 24.11.2024"
+                            required="required" />
+                        <label for="date2">1.11 - 24.11.2024</label>
+                    </div>
+                </div>
+            </div>
+
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Jan" name="name" required>
+
+
+            <label for="surname">Surname</label>
+            <input id="surname" type="text" placeholder="Kowalski" name="surname">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="example@gmail.com" name="email" required>
+
+            <label for="phoneNumber">Phone Number</label>
+            <input id="phoneNumber" type="number" placeholder="111-111-111" name="phoneNumber" required>
+
+            <label for="adress">Adress</label>
+            <input id="adress" type="text" placeholder="ul. Zwycięstwa Gliwice" name="adress">
+            <label for="questions">Do you have more question?</label>
+            <textarea id="questions" name="questions" cols="20" rows="2"
+                placeholder="I have a question about..."></textarea>
+
+
+            <button class="button-27" type="submit">Sign me up!</button>
+        </form>
+    </section>
+</body>
+
+</html>
